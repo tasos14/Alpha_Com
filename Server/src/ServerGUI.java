@@ -47,6 +47,7 @@ public class ServerGUI extends JFrame implements ActionListener, WindowListener 
 		center.add(new JScrollPane(event));	
 		
 		serverF.add(center);
+		serverF.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		addWindowListener(this);
 		logI.setSize(400, 600);
