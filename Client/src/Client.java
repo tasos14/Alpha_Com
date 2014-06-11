@@ -39,6 +39,8 @@ public class Client {
 	private ObjectInputStream sInput;
 	private ObjectOutputStream sOutput;
 	private Socket socket;
+	
+	//just a comment for no reason :P
 
 	private ClientGUI clientGUI;
 
